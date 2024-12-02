@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ホーム</title>
+        <link rel="stylesheet" href="styles2.css">
+    </head>
+
+    <body>
+        <div id="homepage">
+            <div class="logo">
+                <img src="logo.png" id="logo">
+            </div>
+            <img src="toachive.png" id="toachive" onclick="goachive()">
+            <div class="icon">
+                <a href="index.html"><img src="calender.png" id="calendar"></a>
+                <img src="camera.png" id="camera">
+                <img src="movie.png" id="movie" onclick="gomovie()">
+            </div>  
+        </div>
+
+        <div id="achivepage">
+            <img src="back.png" class="back" id="back1" onclick="backhome()">
+            <img src="achive.png" id="achive">
+            <img src="tochara.png" id="tochara" onclick="gocharacterpage()">
+        </div>
+
+        <div id="charapage">
+            <img src="batu.png" class="batsu" onclick="backachive()">
+            <div class="left">
+            <img src="chara-title.png" id="chara-title">
+            </div>
+            <div id="top-bottom">
+            <div class="chara-container">
+                <img src="onigiri.png" class="character">
+                <img src="pan.png" class="character">
+                <img src="men.png" class="character">
+                <img src="ume.png" class="character">
+            </div>
+            <div class="chara-container">
+                <img src="hamu.png" class="character">
+                <img src="niku.png" class="character">
+                <img src="ringo.png" class="character">
+                <img src="remon.png" class="character">
+            </div>
+            <div class="chara-container">
+                <img src="shiitake.png" class="character">
+                <img src="masshu.png" class="character">
+                <img src="ti-zu.png" class="character">                    
+                <img src="bata-.png" class="character">
+            </div>
+            <div class="chara-container">
+                <img src="sawara.png" class="character">
+                <img src="sake.png" class="character">
+                <img src="wakame.png" class="character">
+                <img src="akatosaka.png" class="character">
+            </div>
+            <div class="chara-container">
+                <img src="buro.png" class="character">
+                <img src="nasu.png" class="character">
+                <img src="ninnniku.png" class="character">
+                <img src="mame.png" class="character">
+            </div>
+            <div class="chara-container">
+                <img src="goma.png" class="character">
+                <img src="jaga.png" class="character">
+                <img src="satuma.png" class="character">
+                <img src="a-mondo.png" class="character">
+            </div>
+            <div class="chara-container">
+                <img src="daion.png" class="character">
+                <img src="ninjin.png" class="character">
+                <img src="touhu.png" class="character">
+                <img src="milk.png" class="character">
+            </div>
+            </div>
+        </div>
+        <div id="moviepage">
+            <img src="back.png" class="back"  id="back2" onclick="backhome()">
+            <img src="MOJI.png" id="MOJI">
+            <div id="movie-container">
+                <img src="movie1.png" class="movie" onclick="showAndPlayVideo1()">
+                <img src="movie2.png" class="movie" onclick="showAndPlayVideo2()">
+                <img src="movie3.png" class="movie" onclick="showAndPlayVideo3()">
+            </div>
+        </div>
+        <div id="video-container1" class="video-container">
+            <video id="video1" controls width="600">
+                <source src="movie1.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video-container2" class="video-container">
+            <video id="video2" controls width="600">
+                <source src="movie2.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div id="video-container3" class="video-container">
+            <video id="video3" controls width="600">
+                <source src="movie3.mp4" type="video/mp4">
+            </video>
+        </div>
+        
+        <script src="script2.js"></script>
+    </body>
+</html>
