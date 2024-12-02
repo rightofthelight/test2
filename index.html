@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>食事記録</title>
+        <link rel="stylesheet" href="styles3.css">
+    </head>
+    <body>
+        <div id="calenderpage">
+        <p id="larr" class="larr"><a href="home.html">&#8592;</a></p>
+        <strong id="current-date" class="current-date"></strong> 
+        <p id="triangle1">&#9664;</p>
+        <p id="triangle2">&#9654;</p>
+        <img src="star.png" id="star" class="ornament">
+        <div id="calendar" class="calendar-view"></div>
+        <img src="riceball.png" id="riceball" class="ornament">
+        </div>
+
+        <div id="input-page" class="input-page">
+            <div id="inputbox">
+            <p id="larr2" class="larr" onclick="backCalendar()">&#8592;</p>
+            <h2 id="selected-date"></h2>  
+
+            
+            <div class="input-box">
+
+            <div class="input-section">
+                <img src="water.png" class="name-water name">
+                <div id="water-boxes" class="box-container"></div>
+            </div>
+
+            <div class="input-section">
+                <img src="staple.png" class="name-staple name">
+                <div id="staple-boxes" class="box-container"></div>
+            </div>
+        
+            <div class="input-section">
+                <img src="side2.png" class="name-side2 name">
+                <div id="side2-boxes" class="box-container"></div>
+            </div>
+
+            <div class="input-section">
+                <img src="main.png" class="name-main name">
+                <div id="main-boxes" class="box-container"></div>
+            </div>
+
+            <div class="input-section">
+                <img src="dairy.png" class="name-dairy name">
+                <div id="dairy-boxes" class="box-container"></div><h4></h4><div id="fruit-boxes" class="box-container"></div>             
+            </div>
+
+            <img src="fruit.png" class="name-fruit name">
+
+            </div>
+
+            <div class="button">
+                <img src="save.png" onclick="saveData()" id="savebotton">
+            </div>
+            <img src="option.png" id="openimg" onclick="imgopen()">
+            </div>
+            <div id="illust">
+                <img src="green.png" id="green">
+                <img src="illust.png" id="illust1">
+                <img src="batu.png" onclick="imgclose()" id="batu">
+                </div>
+        </div>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
