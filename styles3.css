@@ -520,13 +520,7 @@ button{
 
 
 @media screen and (max-width: 478px) { 
-    html{
-        margin: 0;
-        padding: 0;
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);
-    }
+  
     body {
 
         transform-origin: top left; /* 拡大の基準を左上に設定 */
