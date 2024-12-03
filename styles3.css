@@ -520,16 +520,14 @@ button{
 
 
 @media screen and (max-width: 478px) { 
-  
-    body {
-
-        transform-origin: top left; /* 拡大の基準を左上に設定 */
-        width: 100%; /* 幅を100%に */
-        height: 100%; /* 高さを100%に */
-        margin-top: auto;
-        margin-bottom: auto;
-        overflow: hidden; /* 拡大によって発生するスクロールバーを隠す */
+    html{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
     }
+    
 
     .current-date ,#selected-date{
         font-size: 5vw; 
