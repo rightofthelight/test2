@@ -93,13 +93,13 @@ display: flex;
     }
     #back1{
         position: absolute;
-        top: 0vw;
+        top: 10vw;
         left: 5vw;
         z-index: 1;
     }
     #back2{
         position: absolute;
-        top: 0vw;
+        top: -20vw;
         left: 5vw;
         z-index: 1;
     }
