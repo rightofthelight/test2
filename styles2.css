@@ -57,7 +57,7 @@ display: flex;
 @media screen and (max-width: 1024px) { 
     body {
     position: relative;
-    top: 30w;
+    top: 30vw;
 }
     #home{
         position: relative;
