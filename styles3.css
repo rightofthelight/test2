@@ -303,8 +303,9 @@ button{
 }
 #green{
     position: absolute;
-    top: -50vw;
-    left: -50vw;
+    top: 0vw;
+    left: 50vw;
+    left: 50vw;
     width: 100%; 
     height: 100%;
     z-index: -2;
@@ -548,13 +549,13 @@ button{
     #triangle1{
         position: absolute;
         top: 3.5vw;
-        left: 40%;
+        left: 35%;
         z-index: -1;
     }
     #triangle2{
         position: absolute;
         top: 3.5vw;
-        left: 65%;
+        left: 60%;
         z-index: -1;
     }
     .button{
@@ -634,7 +635,7 @@ button{
     #riceball{
         position: absolute;
         margin-top: 1vw;
-        top: 162vw;
+        top: 150vw;
         left:45vw;
         width: 13vw;
         height: 13vw;
