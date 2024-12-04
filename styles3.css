@@ -301,14 +301,7 @@ button{
     width: 2vw;
     height: 2.2vw;
 }
-#green{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%; 
-    height: 100%;
-    z-index: -2;
-}
+
 #illust1{
     position: absolute;
     top: 50%;
