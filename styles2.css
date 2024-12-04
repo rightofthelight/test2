@@ -93,13 +93,13 @@ display: flex;
     }
     #back1{
         position: absolute;
-        top: 20vw;
+        top: 0vw;
         left: 5vw;
         z-index: 1;
     }
     #back2{
         position: absolute;
-        top: -40vw;
+        top: 0vw;
         left: 5vw;
         z-index: 1;
     }
@@ -121,12 +121,14 @@ display: flex;
         margin-top: 5vw;
     }
     .chara-container{
+        position: relative;
+        top: 15vw;
         margin-left: 7vw;
         margin-right: 7vw;
     }
     .character{
-        width: 13vw;
-        height: 13vw;
+        width: 14vw;
+        height: 14vw;
         margin: auto;
     }
     #chara-title{
@@ -139,7 +141,7 @@ display: flex;
         position: absolute;
         width: 4.2vw;
         height: 4.2vw;
-        top: 0vw;
+        top: 10vw;
         right: 5vw;
     }
     #MOJI{
