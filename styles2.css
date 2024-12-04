@@ -28,8 +28,6 @@ display: flex;
 
 #achivepage{
     display: none;
-    psition: relative;
-    top: 20vw;
 }
 
 #homepage {
@@ -105,6 +103,10 @@ display: flex;
         left: 5vw;
         z-index: 1;
     }
+#achivepage{
+    psition: relative;
+    top: 30vw;
+}
     #achive{
         position: relative;
         width: 81.3vw;
