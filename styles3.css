@@ -325,7 +325,13 @@ button{
 @media screen and (max-width: 478px) { 
 
 
-
+html{
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
 
 
