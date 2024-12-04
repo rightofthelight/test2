@@ -333,8 +333,9 @@ button{
 
     body {
         transform-origin: top left; /* 拡大の基準を左上に設定 */
-        margin-top: auto;
-        margin-bottom: auto;
+        width: 100%; /* 幅を100%に */
+        height: 100%; /* 高さを100%に */
+        
         overflow: hidden; /* 拡大によって発生するスクロールバーを隠す *
     }    
 
