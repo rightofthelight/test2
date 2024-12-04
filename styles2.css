@@ -99,7 +99,7 @@ display: flex;
     }
     #back2{
         position: absolute;
-        top: -20vw;
+        top: -25vw;
         left: 5vw;
         z-index: 1;
     }
