@@ -450,7 +450,7 @@ button{
     .calendar-view {
         position: relative;
         top: 3vw;
-        transform: scale(0.9); /* 1.2倍に拡大 */
+        transform: scale(0.9, 0.7); /* 1.2倍に拡大 */
         transform-origin: top left; /* 拡大の基準を左上に設定 */
         display: grid;
         grid-template-columns: repeat(7, 1fr);
