@@ -28,6 +28,8 @@ display: flex;
 
 #achivepage{
     display: none;
+    psition: relative;
+    top: 20vw;
 }
 
 #homepage {
