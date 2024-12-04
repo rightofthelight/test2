@@ -381,13 +381,13 @@ button{
     #triangle1{
         position: absolute;
         top: 5.5vw;
-        left: 36%;
+        left: 30%;
         z-index: -1;
     }
     #triangle2{
         position: absolute;
         top: 5.5vw;
-        left: 60%;
+        left: 55%;
         z-index: -1;
     }
     .button{
@@ -477,7 +477,7 @@ button{
     #riceball{
         position: absolute;
         margin-top: 1vw;
-        top: 90vw;
+        top: 100vw;
         left:45vw;
         width: 10.4vw;
         height: 11.2vw;
