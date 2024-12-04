@@ -177,12 +177,12 @@ function openInputPage(day) {
 function imgopen() {
     inputbox.style.display = "none";
     illust.style.display = "block";
-    function changeBackground()
+    function changeBackground();
     
 }
 
 function imgclose() {
-    function resetBackground()
+    function resetBackground();
     inputbox.style.display = "block";
     illust.style.display = "none";
 }
