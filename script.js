@@ -177,16 +177,15 @@ function openInputPage(day) {
 function imgopen() {
     inputbox.style.display = "none";
     illust.style.display = "block";
-    function changeBackground();
+    changeBackground();
     
 }
 
 function imgclose() {
-    function resetBackground();
+    resetBackground();
     inputbox.style.display = "block";
     illust.style.display = "none";
 }
-
 function changeBackground() {
     document.body.style.backgroundImage = "green.png";
     document.body.style.backgroundSize = "cover";
@@ -198,6 +197,7 @@ function resetBackground() {
     document.body.style.backgroundImage = "";
     document.body.style.backgroundColor = "white";
 }
+
 
 function showCalendar() {
     inputPage.style.display = "none";
