@@ -187,7 +187,7 @@ function imgclose() {
     illust.style.display = "none";
 }
 function changeBackground() {
-    document.body.style.backgroundImage = "green.png";
+    document.body.style.backgroundImage = "url('green.png')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
     document.body.style.backgroundColor = "";
