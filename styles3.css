@@ -494,7 +494,7 @@ button{
         position:absolute;
         width: 4.2vw;
         height: 4.2vw;;
-        top: 0vw;
+        top: 10vw;
         left: 77vw;
         z-index: 1;
     }
