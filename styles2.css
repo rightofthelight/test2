@@ -113,14 +113,14 @@ display: flex;
         position: relative;
         width: 81.3vw;
         height: 144.6;
-        top: 10vw;
+        top: 15vw;
         margin: 0;
     }
     #tochara{
         position: relative;
         width: 51.5vw;
         height: 10vw;
-        top: -20vw;
+        top: -15vw;
         margin: 0;
     }
     #top-bottom{
