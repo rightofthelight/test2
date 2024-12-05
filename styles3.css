@@ -443,8 +443,8 @@ button{
     }
     .calendar-view {
         position: relative;
-        top: 0vw;
-        left: 10vw;
+        top: 2vw;
+        left: 5vw;
         transform: scale(0.8, 0.8); /* 1.2倍に拡大 */
         transform-origin: top left; /* 拡大の基準を左上に設定 */
         display: grid;
