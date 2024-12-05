@@ -374,13 +374,13 @@ button{
     #triangle1{
         position: absolute;
         top: 5.5vw;
-        left: 40%;
+        left: 38%;
         z-index: -1;
     }
     #triangle2{
         position: absolute;
         top: 5.5vw;
-        left: 63%;
+        left: 61%;
         z-index: -1;
     }
     .button{
