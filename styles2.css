@@ -76,6 +76,8 @@ display: flex;
         left: 10vw;
     }
     #toachive{
+        position: relative;
+        top: 5vw;
         width: 59.7vw;
         height: 69.1vw;
     }
