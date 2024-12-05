@@ -385,8 +385,8 @@ button{
     }
     .button{
     position: relative;
-    top: 10vw;
-    left: 0vw;
+    top: 15vw;
+    left: -2vw;
 
     }
     .input-page{
@@ -395,7 +395,7 @@ button{
     }
     .input-box{
         position: relative;
-        top: 5vw;
+        top: 10vw;
         left: -15vw
     }
 
