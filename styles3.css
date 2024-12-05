@@ -443,7 +443,7 @@ button{
     }
     .calendar-view {
         position: relative;
-        top: 5vw;
+        top: 0vw;
         left: 12vw;
         transform: scale(0.8, 0.8); /* 1.2倍に拡大 */
         transform-origin: top left; /* 拡大の基準を左上に設定 */
@@ -471,7 +471,7 @@ button{
     #riceball{
         position: absolute;
         margin-top: 1vw;
-        top: 100vw;
+        top: 105vw;
         left:45vw;
         width: 10.4vw;
         height: 11.2vw;
