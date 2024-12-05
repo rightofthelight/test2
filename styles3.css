@@ -325,7 +325,7 @@ button{
     .current-date{
         position: relative;
         top: 0vw;
-        left: 5vw;
+        left: 3vw;
     }
     #selected-date{
         position: relative;
@@ -444,7 +444,7 @@ button{
     .calendar-view {
         position: relative;
         top: 2vw;
-        left: 7vw;
+        left: 5vw;
         transform: scale(0.8, 0.8); /* 1.2倍に拡大 */
         transform-origin: top left; /* 拡大の基準を左上に設定 */
         display: grid;
