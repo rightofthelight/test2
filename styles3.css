@@ -479,17 +479,17 @@ button{
     }
     #illust1{
         position: relative;
-        maring-bottom: 2vw;
+        maring-bottom: 5vw;
         width: 59.1vw; 
         height: 113.7vw;
-        top: 60vw;
+        top: 55vw;
         left: 25vw;
     }
     #batu{
         position:absolute;
         width: 4.2vw;
         height: 4.2vw;;
-        top: 5vw;
+        top: 3vw;
         left: 77vw;
         z-index: 1;
     }
@@ -637,12 +637,13 @@ button{
         z-index: -1;
     }
     #illust1{
+        position: relative;
         width: 96vw; 
         height: 170vw;
     }
     #closeimg{
         position:absolute;
-        top: 5vw;
+        top: 0vw;
         left:90vw
     }
     #openimg{
