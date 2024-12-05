@@ -374,13 +374,13 @@ button{
     #triangle1{
         position: absolute;
         top: 5.5vw;
-        left: 37%;
+        left: 40%;
         z-index: -1;
     }
     #triangle2{
         position: absolute;
         top: 5.5vw;
-        left: 60%;
+        left: 63%;
         z-index: -1;
     }
     .button{
@@ -463,7 +463,7 @@ button{
     }
     #star{
         position: absolute;
-        top: 5vw;
+        top: 2vw;
         right: 5vw;
         width: 5.7vw;
         height: 9.5vw;
