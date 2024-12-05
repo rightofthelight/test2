@@ -325,7 +325,7 @@ button{
     .current-date{
         position: relative;
         top: 0vw;
-        left: -5vw;
+        left: 0vw;
     }
     #selected-date{
         position: relative;
@@ -373,13 +373,13 @@ button{
     #triangle1{
         position: absolute;
         top: 5.5vw;
-        left: 32%;
+        left: 37%;
         z-index: -1;
     }
     #triangle2{
         position: absolute;
         top: 5.5vw;
-        left: 55%;
+        left: 60%;
         z-index: -1;
     }
     .button{
@@ -442,8 +442,8 @@ button{
     }
     .calendar-view {
         position: relative;
-        top: 10vw;
-        left: 5vw;
+        top: 5vw;
+        left: 10vw;
         transform: scale(0.7, 0.7); /* 1.2倍に拡大 */
         transform-origin: top left; /* 拡大の基準を左上に設定 */
         display: grid;
