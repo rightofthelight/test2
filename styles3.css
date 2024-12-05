@@ -329,7 +329,8 @@ button{
     }
     #selected-date{
         position: relative;
-        left: -5vw;
+        top: 5vw;
+        left: 0vw;
     }
     h3{
         font-size: 4vw;
@@ -384,8 +385,8 @@ button{
     }
     .button{
     position: relative;
-    top: 5vw;
-    left: -5vw;
+    top: 10vw;
+    left: 0vw;
 
     }
     .input-page{
@@ -394,8 +395,8 @@ button{
     }
     .input-box{
         position: relative;
-        top: 0vw;
-        left: -20vw
+        top: 5vw;
+        left: -15vw
     }
 
     .name-water{
