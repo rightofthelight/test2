@@ -554,11 +554,11 @@ button{
     }
     .button{
     position: relative;
-    top: 40vw;
+    top: 50vw;
     }
     .input-box{
         position: relative;
-        top: 10vw;
+        top: 20vw;
         left:-10vw
     }
 
