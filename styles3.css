@@ -330,7 +330,7 @@ button{
     #selected-date{
         position: relative;
         top: 5vw;
-        left: 0vw;
+        left: -5vw;
     }
     h3{
         font-size: 4vw;
@@ -386,7 +386,7 @@ button{
     .button{
     position: relative;
     top: 15vw;
-    left: -2vw;
+    left: -7vw;
 
     }
     .input-page{
