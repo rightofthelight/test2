@@ -479,16 +479,17 @@ button{
     }
     #illust1{
         position: relative;
+        maring-bottom: 2vw;
         width: 59.1vw; 
         height: 113.7vw;
-        top: 65vw;
+        top: 60vw;
         left: 25vw;
     }
     #batu{
         position:absolute;
         width: 4.2vw;
         height: 4.2vw;;
-        top: 10vw;
+        top: 5vw;
         left: 77vw;
         z-index: 1;
     }
