@@ -82,7 +82,7 @@ display: flex;
    .icon{
     position: relative;
     align-items: center;
-    top: 10vw;
+    top: 15vw;
    }
     #calendar, #camera,  #movie{
         margin: 5vw;
